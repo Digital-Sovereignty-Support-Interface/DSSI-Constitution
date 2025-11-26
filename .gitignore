@@ -1,0 +1,45 @@
+# -------------------
+# OS Generated Files (OSのゴミ)
+# -------------------
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Mac (共同作業者がMacの場合に備えて)
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# -------------------
+# Editor / IDE Settings (エディタの設定ファイル)
+# -------------------
+# VS Code
+.vscode/
+*.code-workspace
+
+# IntelliJ / JetBrains
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Notepad++
+nppBackup/
+
+# -------------------
+# General Logs & Temp (ログ・一時ファイル)
+# -------------------
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+
+# -------------------
+# Archives (誤ってアップロードしないよう除外)
+# -------------------
+*.zip
+*.tar.gz
+*.rar
