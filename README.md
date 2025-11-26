@@ -6,15 +6,15 @@
 
 ## 🛠️ Status: Phase 1 - MVP Construction
 
-## 🛠️ Status: Phase 1 - MVP Construction
-
 ![DSSI Demo: Password Field Guard](./images/DSSI_1.png)
-*(Phase 1 MVP: パスワードフィールドにおける技術的事実の提示と、入力手段のガイド)*
+
+    *(Phase 1 MVP: パスワードフィールドにおける技術的事実の提示と、入力手段のガイド)*
 
 現在、**「行為の自覚」**を支援する最小機能製品（MVP）の開発フェーズです。
 初期実装（パスワードフィールドの検知とチップス表示）が完了し、動作検証済みです。
 
 * **Code Repository:** [🏛️ DSSI-Code (Implementation)](https://github.com/Digital-Sovereignty-Support-Interface/DSSI-Code)
+
     ** 実際のソースコード、ビルド手順、技術仕様はこちら。
 
 ---
