@@ -4,12 +4,18 @@
 
 ---
 
-## 🚧 Status: Phase 1 - MVP Construction
+## 🛠️ Status: Phase 1 - MVP Construction
+
+## 🛠️ Status: Phase 1 - MVP Construction
+
+![DSSI Demo: Password Field Guard](./images/DSSI_1.png)
+*(Phase 1 MVP: パスワードフィールドにおける技術的事実の提示と、入力手段のガイド)*
 
 現在、**「行為の自覚」**を支援する最小機能製品（MVP）の開発フェーズです。
+初期実装（パスワードフィールドの検知とチップス表示）が完了し、動作検証済みです。
 
-* **Goal:** ユーザーの無自覚な入力・同意を止め、「熟慮の摩擦」を導入する。
-* **Development:** Browser Extension (Pre-Alpha)
+* **Code Repository:** [🏛️ DSSI-Code (Implementation)](https://github.com/Digital-Sovereignty-Support-Interface/DSSI-Code)
+    ** 実際のソースコード、ビルド手順、技術仕様はこちら。
 
 ---
 
@@ -42,6 +48,15 @@ DSSIは、インターネットにおける「情報の非対称性」を解消�
 | 🌱 **[創発記録](./DSSI_Genesis_Log.md)** | 本プロジェクトの根源的な問いと、創発の記録。 |
 
 ---
+
+## 📦 Official Repositories
+
+DSSIプロジェクトは、機能ごとに以下のリポジトリで構成されています。
+
+| Repository | Role | Description |
+| :--- | :--- | :--- |
+| **[DSSI-Constitution](./)** | **Side-i (理念)** | 憲章、戦略設計図、創発ログの格納場所。（本リポジトリ） |
+| **[DSSI-Code](https://github.com/Digital-Sovereignty-Support-Interface/DSSI-Code)** | **Side-r (実装)** | ブラウザ拡張機能のソースコード、技術仕様書。 |
 
 ## 🤝 Contribution
 
