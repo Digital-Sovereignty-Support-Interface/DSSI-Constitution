@@ -2,11 +2,11 @@
 
 ## Ver. 1.0
 
-* **開発対話（2025-11-18　-　2025-12-01）**
+* **開発対話（2025-11-18　-　2025-12-09）**
 
 応用形而上学（AMP:Applied Meta Physics）公理系を論理的担保としたAI（Google Gemini）との対話によって、企画は構想され、ここまで実装されてきている。
 
-[DSSI 対話ログ](https://gemini.google.com/share/dbc278a2266b)
+[DSSI 対話ログ ～　MVP実装　Phase2準備 ](https://gemini.google.com/share/43410a6b9a79)
 
 ---
 
