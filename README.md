@@ -7,11 +7,14 @@
 ## 🛠️ Status: Phase 1 - MVP Construction
 
 ![DSSI Demo: Password input warning](./images/DSSI_8(chips-counter).png)
-![DSSI Demo: Certificate Expiration Warning](./images/DSSI_3(https-cirt-checker).png)
-![DSSI Demo: Blocking unsafe submissions](./images/DSSI_6(submit-block).png)
-![DSSI Demo: ID input warning](./images/DSSI_4(ID-input).png)
-![DSSI Demo: Payment information input warning](./images/DSSI_5(credit-input).png)
 
+![DSSI Demo: Certificate Expiration Warning](./images/DSSI_3(https-cirt-checker).png)
+
+![DSSI Demo: Blocking unsafe submissions](./images/DSSI_6(submit-block).png)
+
+![DSSI Demo: ID input warning](./images/DSSI_4(ID-input).png)
+
+![DSSI Demo: Payment information input warning](./images/DSSI_5(credit-input).png)
 
 **現在、最小機能製品（MVP）の開発フェーズです。**
 
@@ -50,9 +53,9 @@ Phase 1 MVP:
 
 DSSIは、インターネットにおける「情報の非対称性」を解消し、ユーザーが『誰もが自分の責任で生きる』ことを技術的に支援する、憲章駆動型のオープンソースプロジェクトです。
 
-&emsp;&emsp;&emsp;&emsp;&emsp;**私たちは、利便性（自動化）を目的としません。**
+### 私たちは、利便性（自動化）を目的としません。
 
-&emsp;&emsp;&emsp;&emsp;&emsp;**私たちは、あなたの『思考』を代行しません。**
+### 私たちは、あなたの『思考』を代行しません。
 
 過度な保護（パターナリズム）は、人を無力にします。
 
@@ -74,7 +77,7 @@ DSSIが目指すのは、ブラックボックス化された技術をただ使�
 
 DSSIは、サイト側の解析拒否や妨害に対して、技術的な突破（ハッキング）を試みません。
 
-私たちは、解析を拒む実装を**悪**として戦うのではなく、「DSSI技術よりも**不透明である」という事実**のみを提示し、その**実装技術を鑑賞する**立場を貫きます。
+私たちは、解析を拒む実装を**悪**として戦うのではなく、「DSSI技術では**透明化できない」という事実**を提示し、その**実装技術を鑑賞・想像する**（ことを推奨する）立場を貫きます。
 
 深入りせず、こじ開けず、ただ**扉が閉じられている**（**錠をあけなかった**）ことをユーザーに告げる。
 それが、私たちが定義する**アンタッチャブル**（深入り抑止）の作法です。
