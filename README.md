@@ -6,7 +6,12 @@
 
 ## 🛠️ Status: Phase 1 - MVP Construction
 
-![DSSI Demo: Password Field Guard](./images/DSSI_1.png)
+![DSSI Demo: Password input warning](./images/DSSI_8(chips-counter).png)
+![DSSI Demo: Certificate Expiration Warning](./images/DSSI_3(https-cirt-checker).png)
+![DSSI Demo: Blocking unsafe submissions](./images/DSSI_6(submit-block).png)
+![DSSI Demo: ID input warning](./images/DSSI_4(ID-input).png)
+![DSSI Demo: Payment information input warning](./images/DSSI_5(credit-input).png)
+
 
 **現在、最小機能製品（MVP）の開発フェーズです。**
 
@@ -29,11 +34,15 @@ Phase 1 MVP:
 
 （004）メールアドレス・クレジット情報への警告実装
 
-（005）バックグラウンド連携
+（005）保護されていない送信時に再確認表示
+
+（006）チップスの非表示設定（表示回数・非表示スイッチ・非表示リセット・時限復活機能）
 
 **Code Repository:**
 [🏛️ DSSI-Code (Implementation)](https://github.com/Digital-Sovereignty-Support-Interface/DSSI-Code)
 :実際のソースコード、ビルド手順、技術仕様はこちら。
+
+[🏛️ DSSI System Architecture: DSSIを実装する最小機能コードの概要説明](https://github.com/Digital-Sovereignty-Support-Interface/DSSI-Code/blob/main/docs/ARCHITECTURE.md)
 
 ---
 
@@ -47,7 +56,7 @@ DSSIは、インターネットにおける「情報の非対称性」を解消�
 
 過度な保護（パターナリズム）は、人を無力にします。
 
-DSSIが目指すのは、ブラックボックス化された技術をただ使うのではなく、**「使う過程で分かるようになる（教育）」**構造の実装です。
+DSSIが目指すのは、ブラックボックス化された技術をただ使うのではなく、「**使う過程で分かるようになる（教育）**」構造の実装です。
 
 私たちは自動化・省力化ではなく、技術的な**情報**と**知識**を提供することで、ユーザーがデジタルシーンにおける「**主権**者」としての「**判断**」能力を回復することを目的とします。
 
