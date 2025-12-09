@@ -16,30 +16,25 @@
 
 ![DSSI Demo: Payment information input warning](./images/DSSI_5(credit-input).png)
 
+![DSSI Demo: Viscosity levle Switch](./images/DSSI_11(Switch-Viscosity).png)
+
 **現在、最小機能製品（MVP）の開発フェーズです。**
 
 Phase 1 MVP:
 
-（001）パスワードフィールドにおけるガイド実装：
-初期実装（パスワードフィールドの検知とチップス表示：↑**イメージ図**）完了、動作検証済み。
+🥂 Phase 1 進捗状況（最小機能実装）
 
-（002）DSSI機能のOn/Offトグル実装
+GitHub上の DSSI-Code リポジトリは、以下の要素を完備しました。
 
-（003）HTTP/HTTPS判定実装・セキュリティ証明書確認（chrome非対応-受動的には取得不可-につき仮実装Phase 2の課題）
+👁️ 観測 (Observer): パスワード、メール、クレカ、HTTP、証明書期限の検知。
 
-送信ボタンへの介入ルール (Submit Guard)
+🛡️ 防御 (Guard): 危険な通信下での送信保留（Submit Guard）。
 
-| 条件 | 判定 | 挙動 | 理由 |
-| :--- | :--- | :--- | :--- |
-| **HTTPS (安全)** | **Pass** | 介入しない（スルー） | ユーザーの意図と安全性が担保されているため。 |
-| **HTTP / 証明書エラー** | **Block** | **送信を中断し、確認チップスを表示** | 通信の安全性欠如はユーザーの意図（安全な送信）に反するため。 |
-| **非Submit要素** | **Observe** | (検知困難なためPhase 1では対象外) | 入力欄への「キー入力イベント」警告で代替。 |
+🧠 知能 (Viscosity): ユーザー設定（Lv1-3）に応じた動的な介入レベル調整。
 
-（004）メールアドレス・クレジット情報への警告実装
+💾 記憶 (Persistence): ミュート機能、自動復活、設定の永続化。
 
-（005）保護されていない送信時に再確認表示
-
-（006）チップスの非表示設定（表示回数・非表示スイッチ・非表示リセット・時限復活機能）
+🏛️ 哲学 (Philosophy): UIに刻まれた "We do not substitute your thought."
 
 **Code Repository:**
 [🏛️ DSSI-Code (Implementation)](https://github.com/Digital-Sovereignty-Support-Interface/DSSI-Code)
