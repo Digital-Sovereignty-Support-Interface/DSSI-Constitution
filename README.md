@@ -17,6 +17,20 @@ Phase 1 MVP:
 
 （002）DSSI機能のOn/Offトグル実装
 
+（003）HTTP/HTTPS判定実装・セキュリティ証明書確認（chrome非対応-受動的には取得不可-につき仮実装Phase 2の課題）
+
+送信ボタンへの介入ルール (Submit Guard)
+
+| 条件 | 判定 | 挙動 | 理由 |
+| :--- | :--- | :--- | :--- |
+| **HTTPS (安全)** | **Pass** | 介入しない（スルー） | ユーザーの意図と安全性が担保されているため。 |
+| **HTTP / 証明書エラー** | **Block** | **送信を中断し、確認チップスを表示** | 通信の安全性欠如はユーザーの意図（安全な送信）に反するため。 |
+| **非Submit要素** | **Observe** | (検知困難なためPhase 1では対象外) | 入力欄への「キー入力イベント」警告で代替。 |
+
+（004）メールアドレス・クレジット情報への警告実装
+
+（005）バックグラウンド連携
+
 **Code Repository:**
 [🏛️ DSSI-Code (Implementation)](https://github.com/Digital-Sovereignty-Support-Interface/DSSI-Code)
 :実際のソースコード、ビルド手順、技術仕様はこちら。
